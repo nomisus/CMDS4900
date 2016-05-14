@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.normac.normac.MainFragment">
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME PAGE PLACEHOLDER"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+-->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/normac1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/map"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/form"
+        android:layout_marginRight="252dp"
+        android:layout_marginEnd="252dp"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/blankform"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_marginTop="26dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/schedule"
+        android:baselineAlignBottom="false"
+        android:layout_marginRight="138dp"
+        android:layout_marginEnd="138dp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:layout_toStartOf="@+id/imageButton3" />
+
+</RelativeLayout>

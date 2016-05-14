@@ -1,0 +1,39 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.normac.normac.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:padding="5dp" >
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="285dp"
+        android:layout_height="285dp"
+        android:id="@+id/imgView"
+        android:layout_x="40dp"
+        android:layout_y="90dp"
+        android:padding="1dp"
+        android:contentDescription="i" />
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:layout_x="110dp"
+        android:layout_y="70dp"
+        android:text="Load Picture" >
+
+    </Button>
+
+
+
+</AbsoluteLayout>
